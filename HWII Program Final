@@ -20,8 +20,8 @@ Y addPoly (Y a, Y b, Y c, Y d, Y e, Y f){
 }
 int main(){
 int a=2, b=3, c=4, d=1, e=2, f=12, g, h;
-g=multPoly<int>(a,b,c,d,e,f);
-h=addPoly<int>(a,b,c,d,e,f);
+g=multPoly<float>(a,b,c,d,e,f);
+h=addPoly<float>(a,b,c,d,e,f);
 cout<<"Answer for multiplication is: "<<g<<"\n";
 cout<<"Answer for addition is: "<<h;
 }
